@@ -1,0 +1,61 @@
+ion-tab-bar {
+    --background: #8C8E7B;
+    --color:black;
+    --min-height: 80px;
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    --border-color: black;
+    --border-width: 4px 0;
+    --border-style: double;
+  }
+
+  ion-tab-button {
+    --ripple-color: #F6F7F4;
+  }
+
+  ion-tab-button.tab-selected ion-icon,
+  ion-tab-button.tab-selected ion-label {
+    color: #F6F7F4;
+    font-weight: bold;
+  }
+  
+  ion-tab-button:hover ion-icon,
+  ion-tab-button:hover ion-label {
+    color: #F6F7F4;
+  }
+
+ion-tab-button.ion-selected ion-icon[icon="home-outline"] {
+    display: none;
+  }
+  
+  ion-tab-button.ion-selected ion-icon[icon="book-outline"] {
+    display: none;
+  }
+  
+  ion-tab-button.ion-selected ion-icon[icon="search-outline"] {
+    display: none;
+  }
+  
+  ion-tab-button.ion-selected ion-icon[icon="home"] {
+    display: block;
+  }
+  
+  ion-tab-button.ion-selected ion-icon[icon="book"] {
+    display: block;
+  }
+  
+  ion-tab-button.ion-selected ion-icon[icon="search"] {
+    display: block;
+  }
+
+  ion-tab-button:not(.ion-selected) ion-icon[icon="home-outline"] {
+    display: block;
+  }
+  
+  ion-tab-button:not(.ion-selected) ion-icon[icon="refresh-outline"] {
+    display: block;
+  }
+  
+  ion-tab-button:not(.ion-selected) ion-icon[icon="search-outline"] {
+    display: block;
+  } 
